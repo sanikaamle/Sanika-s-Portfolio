@@ -1,0 +1,224 @@
+<!-- This is the DOCTYPE declaration. It tells the browser what version of HTML to use. -->
+<!DOCTYPE html>
+
+<!-- This is the opening HTML tag. -->
+<html>
+
+<!-- This is the head section of the HTML document. It contains information about the document, such as the title and the CSS styles. -->
+
+<head>
+
+  <!-- This is the title of the document. It will be displayed in the browser's title bar. -->
+  <title>Sanika's Portfolio</title>
+
+  <!-- This link tag imports the Font Awesome CSS library. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- This link tag imports the CSS Stylesheet. -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- This link tag imports the Inter font. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+
+</head>
+
+<body>
+  <header>
+
+    <h1 class="port_heading">Sanika Amle</h1>
+    <nav>
+      <a class="about_nav" href="#about">About</a>
+
+      <a class="skills_nav" href="#skills">Skills</a>
+
+      <a class="projects_nav" href="#projects">Projects</a>
+
+      <a class="contact_nav" href="#contact">Contact</a>
+    </nav>
+
+  </header>
+
+  <section id="about">
+
+    <h2 class="port_about">About Me</h2>
+
+    <img src="data:image/jpeg;base64,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" alt="Profile Picture" class="logo_syn">
+
+    <p>Hello I am Sanika Amle , a passionate coder and developer trying to achieve greate heights.
+    </p>
+    <p>LEARNING</p>
+
+  </section>
+
+  <section id="skills">
+
+    <h2 class="port_skills">Skills</h2>
+
+    <div class="skill-icons">
+      <a href="https://github.com/torvalds/linux" target="_blank"><i class="fab fa-linux"></i></a>
+      <a href="https://python.org" target="_blank"><i class="fab fa-python"></i></a>
+      <a href="https://figma.com" target="_blank"><i class="fab fa-figma"></i></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><i class="fab fa-html5"></i></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><i class="fab fa-css3-alt"></i></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><i class="fab fa-js"></i></a>
+      <a href="https://react.dev/" target="_blank"><i class="fab fa-react"></i></a>
+      <a href="https://nodejs.org" target="blank"><i class="fab fa-node"></i></a>
+    </div>
+
+  </section>
+
+  <section id="education">
+
+    <h2 class="port_ed">Education</h2>
+    <p>Bennett University (2024-2028)</p>
+    <p>ABC School</p>
+  </section>
+
+
+
+
+    <section id="projects">
+      <h2 class="port_projects">Projects</h2>
+
+      <section id="projects">
+        <div class="projects">
+          <div class="project">
+            <h3>ClubKonnect</h3>
+
+            <p>This is a description for project 1.</p>
+
+            <a
+              href="https://github.com/CSI-Bennett-University/ClubKonnect"
+              style="color: #b4befe; text-decoration: none"
+            >
+              <comment>View Project</comment>
+            </a>
+          </div>
+
+          <!-- This div container holds another single project. -->
+          <div class="project">
+            <!-- This h3 heading defines the project name. -->
+            <h3>Portfolio_Template</h3>
+
+            <!-- This paragraph defines the project description. -->
+            <p>This is a description for project 2.</p>
+
+            <!-- This anchor tag provides a link to the project's GitHub repository. -->
+            <a
+              href="https://github.com/CSI-Bennett-University/Portfolio_Template"
+              style="color: #b4befe; text-decoration: none"
+            >
+              <!-- This is because the GitHub repository contains the project's source code. -->
+              <comment>View Project</comment>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects">
+          <div class="project">
+            <h3>kavach</h3>
+            <p>This is a description for project 3.</p>
+
+            <a
+              href="https://github.com/CSI-Bennett-University/kavach"
+              style="color: #b4befe; text-decoration: none"
+            >
+              <comment>View Project</comment>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>github-demo</h3>
+
+            <!-- This paragraph defines the project description. -->
+            <p>This is a description for project 3.</p>
+
+            <!-- This anchor tag provides a link to the project's GitHub repository. -->
+            <a
+              href="https://github.com/CSI-Bennett-University/github-demo"
+              style="color: #b4befe; text-decoration: none"
+            >
+              <!-- This is because the GitHub repository contains the project's source code. -->
+              <comment>View Project</comment>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects">
+          <div class="project">
+            <h3>profile-pulse</h3>
+
+            <!-- This paragraph defines the project description. -->
+            <p>This is a description for project 3.</p>
+
+            <!-- This anchor tag provides a link to the project's GitHub repository. -->
+            <a
+              href="https://github.com/CSI-Bennett-University/profile-pulse"
+              style="color: #b4befe; text-decoration: none"
+            >
+              <!-- This is because the GitHub repository contains the project's source code. -->
+              <comment>View Project</comment>
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- This is the "Contact Us" section of the document. -->
+    <section id="contact">
+      <!-- This h2 heading defines the section title. -->
+      <h2 class="port_contact">Contact Us</h2>
+
+      <!-- This paragraph defines the contact information. -->
+      <p>
+        <!-- This icon links to the CSI GitHub repository. -->
+        <i class="fab fa-github"></i>
+        <a
+          href="https://github.com/CSI-Bennett-University"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color: #d5d4f0; text-decoration: none"
+        >
+          <!-- This is because the GitHub repository contains the project's source code. -->
+          <comment>GitHub: CSI</comment>
+        </a>
+      </p>
+
+      <p>
+        <!-- This icon links to the CSI website. -->
+        <i class="fas fa-globe"></i>
+        <a
+          href="https://csi-bu.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color: #d5d4f0; text-decoration: none"
+        >
+          <!-- This is because the website contains more information about the CSI. -->
+          <comment>Website: csi-bu</comment>
+        </a>
+      </p>
+
+      <p>
+        <i class="fab fa-linkedin"></i>
+        <a
+          href="https://www.linkedin.com/company/csi-bu/mycompany/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color: #d5d4f0; text-decoration: none"
+        >
+          <comment>LinkedIn: CSI</comment>
+        </a>
+      </p>
+
+      <p>
+        <i class="fas fa-envelope"></i>
+        <a
+          href="mailto:csi@bennett.edu.in"
+          style="color: #d5d4f0; text-decoration: none"
+        >
+          <comment>Email: csi@bennett.edu.in</comment>
+        </a>
+      </p>
+    </section>
+  </body>
+</html>
